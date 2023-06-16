@@ -1,0 +1,115 @@
+
+@font-face{
+  font-family: poppins-Regular;
+src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face{
+  font-family: poppins-ExtraBold;
+src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+
+body{
+  
+  font-family: poppins-Regular;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+main{
+    background-color: hsl(0, 0%, 94%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+  background-color: hsl(0, 0%, 100%);
+padding: 30px;
+border-radius: 10px 10px 30% 10px;
+
+}
+
+#inputArea{
+  display: flex;
+  gap: 30px;
+
+}
+
+#inputArea div label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: hsl(0, 0% 86%);
+  font-weight: 600;
+  
+
+}
+
+#inputArea div input{
+  width: 130px;
+  padding: 15px;
+  font-size: 32px;
+  border:2px solid hsl(0, 0%, 80%);
+  font-weight: 600 hsl(0,0%,85%) ;
+  border-radius: 5px;
+  caret-color:hsl(259,100%, 65%);
+  outline-color: hsl(259,100%, 65%) ;
+}
+
+#actionPoint{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#actionPoint hr{
+  width: 650px;
+  flex: 1;
+border-color: hsl(0,0%,86%,20%);
+}
+
+button {
+  border-radius:50% ;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: hsl(259,100%,65%);
+
+}
+button:hover{
+  background-color: black;
+}
+
+#results{
+  margin-bottom: 80px;
+
+}
+
+#results h1{
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-family: poppins-ExtraBold;
+  font-style: italic;
+  line-height: 80px;
+}
+
+span{
+  color: hsl(259,100%,65%);
+}
+h1{
+  color: black;
+}
+
+span{
+  color: hsl(259, 100%, 65%);
+
+}
+
+.inputError{
+  border-color: hsl(0, 100% ,67%) !important;
+}
+.perError{
+  color: hsl(0, 100% ,67%) !important;
+}
